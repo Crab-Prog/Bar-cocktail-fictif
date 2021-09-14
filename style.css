@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Chalet Paris Nineteen Eighty";
+  src: url("Chalet Paris Nineteen Eighty.otf");
+  src: url("Chalet Paris Nineteen Eighty.otf?#iefix") format("embedded-opentype"),
+}
+
+body {
+	background-image: url(IMAGES/header-section.jpg) ;
+  background-size:contain;
+background-repeat: no-repeat;
+	background-color: #151515;
+	margin: 0 auto;
+}
+
+body,p,h1,h2{
+	color: white;
+}
+
+#logo {
+width: 200px;
+height: 200px;
+margin-right: 80%;
+}
+
+header {
+text-align: center;
+}
+a{
+	  text-decoration: none;
+color: white;
+}
+h1{
+font-family: "Chalet Paris Nineteen Eighty";
+font-size: 4em;
+	text-align: center;
+	padding-bottom: 5px;
+}
+h2{
+	font-family: "Arial";
+	text-align: center;
+	font-style: italic;
+	font-size: 1.2em;
+	margin-left: 20%;
+	margin-top: -20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+color: white;
+text-align: center;
+align-items: center;
+padding-top: 6%;}
+
+ul :hover {
+	color:#CD5C5C;
+}
+
+#horaires{
+font-family: "Chalet Paris Nineteen Eighty";
+font-size: 3em;
+	background-image: url("IMAGES/1.jpg");
+width: 400px;
+height: 250px;
+margin-top: 25%;
+padding-top: 10%;
+}
+#happyhour {
+	font-family: "Chalet Paris Nineteen Eighty";
+font-size: 3em;
+background-image: url("IMAGES/3.jpg");
+	width: 400px;
+	height: 250px;
+	margin-top: 25%;
+	padding-top: 10%;
+}
+#raffine {
+	font-family: "Chalet Paris Nineteen Eighty";
+font-size: 3em;
+background-image: url("IMAGES/2.jpg");
+	width: 400px;
+	height: 250px;
+margin-top: 25%;
+padding-top: 10%;
+}
+
+	#aboutus {
+		font-size: 1.3em;
+	}
+
+footer {
+	position:fixed;
+	margin-left: 25%;
+	width: 50%;
+	background-color: #696969;
+	opacity: 0.9;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	border-radius: 30px;
+}
+.aboutus {
+	background-color: #151515;
+	opacity: 0.8;
+	text-shadow: 2px 2px 3px white;
+	font-size: 2em;
+	margin-right: 20%;
+	text-align: center;
+	font-family: "Chalet Paris Nineteen Eighty";
+}
+/*page 1*/
+#page1 p{
+	text-align: justify;
+	font-family: "Chalet Paris Nineteen Eighty";
+	font-size: 2em;
+	height: 60%;
+	margin-left: 20%;
+}
+/*page 2*/
+#page2 p{
+	text-align: justify;
+	font-family: "Chalet Paris Nineteen Eighty";
+	font-size: 2em;
+	width: 900px;
+	height: 60%;
+  padding: 20px;
+  margin-left: 20%;
+}
+
+/*page 3*/
+h3 {
+	font-size: 3em;
+	font-family: "Chalet Paris Nineteen Eighty";
+}
+
+section img {
+	width: 150px;
+	height: 150px;
+box-shadow: 2px 2px 2px white;
+position: absolute;
+margin-left: 50%;
+margin-top: 4%;
+}
+
+#sunmoon {
+	font-size: 2em;
+	background-image: url("IMAGES/orange-banner.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 	width: 900px;
+	 height: 400px;
+	 font-family:"Chalet Paris Nineteen Eighty";
+	 text-align: justify;
+}
+
+#cocowhip {
+	font-size: 2em;
+	background-image: url("IMAGES/coco-banner.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 width: 900px;
+	 height: 400px;
+	 font-family:"Chalet Paris Nineteen Eighty";
+	 text-align: justify;
+}
+
+#mentalux {
+	font-size: 2em;
+	background-image: url("IMAGES/mentalux-banner.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 width: 900px;
+	 height: 400px;
+ 	 font-family:"Chalet Paris Nineteen Eighty";
+	 text-align: justify;
+}
+
+#spicherry {
+	font-size: 2em;
+	background-image: url("IMAGES/cherry-banner.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 width: 900px;
+	 height: 400px;
+	 font-family:"Chalet Paris Nineteen Eighty";
+	 text-align: justify;
+}
+
+#citrinus {
+	font-size: 2em;
+	background-image: url("IMAGES/citrinus-banner.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 width: 900px;
+	 height: 400px;
+	 font-family:"Chalet Paris Nineteen Eighty";
+	 text-align: justify;
+}
